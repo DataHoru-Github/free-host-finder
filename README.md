@@ -8,9 +8,11 @@ apt install nmap
 
 apt install curl
 
-nmap -p 22 --script dns-brute.nse www.facebook.com
--------------------------------------------------------------------------------
+nmap -p 22 --script dns-brute.nse facebook.com
+
 ( host request chek ⬇️ )
+-------------------------------------------------------------------------------
+( host full request details	)
 
 curl -I facebook.com
 
